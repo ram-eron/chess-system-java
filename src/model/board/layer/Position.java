@@ -17,18 +17,20 @@ public class Position {
 		return linha;
 	}
 
-	public void setLinha(Integer linha) {
-		this.linha = linha;
-	}
-
 	public Integer getColuna() {
 		return coluna;
 	}
 
-	public void setColuna(Integer coluna) {
+	public void setValues(Integer linha, Integer coluna) {
+		this.linha = linha;
 		this.coluna = coluna;
+
 	}
-	
+
+	@Override
+	public String toString() {
+		return "Position [linha=" + linha + ", coluna=" + coluna + "]";
+	}
 	
 	
 }
