@@ -5,9 +5,6 @@ public class Position {
 	private Integer linha;
 	private Integer coluna;
 	
-	public Position() {
-	}
-
 	public Position(Integer linha, Integer coluna) {
 		this.linha = linha;
 		this.coluna = coluna;
@@ -29,7 +26,7 @@ public class Position {
 
 	@Override
 	public String toString() {
-		return "Position [linha=" + linha + ", coluna=" + coluna + "]";
+		return linha + "," + coluna;
 	}
 	
 	

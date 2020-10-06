@@ -6,7 +6,6 @@ import model.board.layer.Piece;
 public class ChessPiece extends Piece {
 	private Color color;
 	private Integer moveCount;
-
 	
 	public ChessPiece(Board board, Color color) {
 		super(board);
@@ -18,7 +17,6 @@ public class ChessPiece extends Piece {
 		return color;
 	}
 
-
 	public Integer getMoveCount() {
 		return moveCount;
 	}
@@ -26,8 +24,6 @@ public class ChessPiece extends Piece {
 	public void setMoveCount(Integer moveCount) {
 		this.moveCount = moveCount;
 	}
-	
-	
 	
 	
 }
